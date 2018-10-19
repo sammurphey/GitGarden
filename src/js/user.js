@@ -28,4 +28,7 @@ function updateUi() {
 }
 
 // init
-xhRequest("https://api.github.com/users/sammurphey", getUserData);
+
+function initUser(username) {
+	xhRequest("https://api.github.com/user?access_token=" + username, getUserData);
+}

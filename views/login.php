@@ -4,22 +4,17 @@
 <main id="login_page">
 	<h1 class='page_title'>GitGarden</h1>
 	<p class='page_desc'>Grow your own beautiful flower garden by contributing code on GitHub!</p>
-		<section class='login_dialog'>
-			<h2>Login</h2>
-			<div class="field">
-				<label for="user_name">GitHub Username<label>
-				<input id="user_name" type="text" value="<?php echo $user_name;?>">
-			</div>
-			<div class="field">
-				<input id="stay_signed_in" type="checkbox" checked><label class="checkbox_label" for="stay_signed_in">Keep me signed in. <img class="icon" src="<?php echo $htp_root; ?>src/imgs/icons/question.png" title="Sets one cookie that will store your username."></label>
-			</div>
+		<!--<section class='login_dialog'>
+			<h2>Login</h2>-->
 			<div id="login_btn_wrapper" class="field">
-				<button id="login_btn">
-					<span>Start</span>
-					<img src="<?php echo $htp_root; ?>src/imgs/icons/GitHub-Mark-32px.png">
-				</button>
+				<a href="https://github.com/login/oauth/authorize?client_id=66b93d27cd279bf8baa3&redirect_uri=http://192.168.0.107/gitgarden">
+					<button id="login_btn">
+						<span>Login</span>
+						<img src="<?php echo $htp_root; ?>src/imgs/icons/GitHub-Mark-32px.png">
+					</button>
+				</a>
 			</div>
-		</section>
+		<!--</section>-->
 </main>
 <style>
 body {

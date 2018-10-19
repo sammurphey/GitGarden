@@ -23,3 +23,11 @@ $user_name = false;
 if (isset($_COOKIE["user_name"])) {
 	$user_name = $_COOKIE["user_name"];
 }
+$user_code = false;
+if (isset($_COOKIE["user_code"])) {
+	$user_code = $_COOKIE["user_code"];
+}
+$user_token = false;
+if (isset($_COOKIE["user_token"])) {
+	$user_token = $_COOKIE["user_token"];
+}

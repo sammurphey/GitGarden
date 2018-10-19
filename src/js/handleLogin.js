@@ -4,3 +4,8 @@ function handleLogin() {
 	document.getElementById("login_btn_wrapper").innerHTML = spinner;
 }
 document.getElementById("login_btn").addEventListener("click", handleLogin);
+var currentUrl = window.location.href;
+console.log(currentUrl);
+if (currentUrl.includes("code=")) {
+	handleLogin();
+}

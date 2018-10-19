@@ -2,8 +2,7 @@
 include($php_root . "components/html_header.php");
 
 // build the menus / ui skeletons
-echo "<button id='avatar' data-token='" . $_COOKIE["user_token"] . "'></button>";
-
+echo "<button id='avatar'></button>";
 echo "<footer id='bottom_menu'><nav><ul>";
 	echo "<li><button>Item 1</button></li>";
 	echo "<li><button>Item 2</button></li>";
@@ -11,7 +10,7 @@ echo "<footer id='bottom_menu'><nav><ul>";
 echo "</ul></nav></footer>";
 
 // get user data
-echo "<script src='" . $htp_root . "src/js/user.js'></script><div id='demo'></div>";
+echo "<script src='" . $htp_root . "src/js/user.js' onload='initUser(\"" . $user_token . "\")'></script><div id='demo'></div>";
 
 // include THREE
 echo "<script src='" . $htp_root . "src/js/three/three.min.js'></script>";
