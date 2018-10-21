@@ -14,7 +14,7 @@ echo "<script src='" . $htp_root . "src/js/user.js' onload='initUser(\"" . $user
 
 // include THREE
 echo "<script src='" . $htp_root . "src/js/three/three.min.js'></script>";
-echo "<script src='" . $htp_root . "src/js/three/add_ons/GLTFLoader.js'></script>";
+echo "<script src='" . $htp_root . "src/js/three/add_ons/MTLLoader.js'></script>";
 echo "<script src='" . $htp_root . "src/js/three/add_ons/DDSLoader.js'></script>";
 echo "<script src='" . $htp_root . "src/js/three/add_ons/OBJLoader.js'></script>";
 echo "<script src='" . $htp_root . "src/js/three/add_ons/OrbitControls.js'></script>";
