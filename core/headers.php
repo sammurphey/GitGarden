@@ -30,4 +30,5 @@ if (isset($_COOKIE["user_code"])) {
 $user_token = false;
 if (isset($_COOKIE["user_token"])) {
 	$user_token = $_COOKIE["user_token"];
+	$document_title = "GitGarden";
 }

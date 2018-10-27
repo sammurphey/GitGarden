@@ -1,0 +1,32 @@
+# Blender MTL File: 'forget_me_not.blend'
+# Material Count: 3
+
+newmtl Material.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.216000 0.216000 0.216000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ../../../flowers/forget_me_not_transparent.png
+map_d ../../../flowers/forget_me_not_transparent.png
+
+newmtl Material.003
+Ns 990.196078
+Ka 1.000000 1.000000 1.000000
+Kd 0.345214 0.640000 0.061885
+Ks 0.341912 0.561111 0.330599
+Ke 0.151031 0.280000 0.027075
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl None
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
