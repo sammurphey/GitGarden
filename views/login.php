@@ -7,7 +7,7 @@
 		<!--<section class='login_dialog'>
 			<h2>Login</h2>-->
 			<div id="login_btn_wrapper" class="field">
-				<a href="https://github.com/login/oauth/authorize?client_id=66b93d27cd279bf8baa3&redirect_uri=http://192.168.0.107/gitgarden">
+				<a href="https://github.com/login/oauth/authorize?client_id=66b93d27cd279bf8baa3&redirect_uri=https://gitgarden.sammurphey.net">
 					<button id="login_btn">
 						<span>Login</span>
 						<img src="<?php echo $htp_root; ?>src/imgs/icons/GitHub-Mark-32px.png">

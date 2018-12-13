@@ -6,8 +6,8 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // env vars
-$php_root = $_SERVER['DOCUMENT_ROOT'] . "/gitgarden/";
-$htp_root = "http://192.168.0.107/gitgarden/";
+$php_root = $_SERVER['DOCUMENT_ROOT'] . "/";
+$htp_root = "https://gitgarden.sammurphey.net/";
 
 // defaults
 $document_title = "GitGarden | Login";

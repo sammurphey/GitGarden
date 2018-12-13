@@ -1,0 +1,8 @@
+#game_container {
+	background: #666;
+	height: 300px;
+	left: calc(50% - 450px);
+	position: absolute;
+	top: calc(50% - 150px);
+	width: 900px;
+}
